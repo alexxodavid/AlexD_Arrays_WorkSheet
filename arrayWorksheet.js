@@ -76,3 +76,19 @@ let reversedNumbers = [];
         reversedNumbers.push(numbers[i]);
 }
 console.log("Reversed numbers array:", reversedNumbers); 
+
+
+// Part 5: Conditional Statements with arrays
+
+let array1 = ["a", "b", "c", "d"];
+let array2 = ["red", "green", "blue"];
+
+
+    if (array1.length > array2.length) {
+    console.log("array1 has a greater length than array2.");    
+    } else if (array2.length > array1.length) {
+        console.log("array2 has a greater length than array1.");
+            } else {
+            console.log("Both arrays have the same length.");
+                 }
+
