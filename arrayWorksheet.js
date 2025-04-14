@@ -45,3 +45,34 @@ let appleCount = 0;
         }
     }   
 console.log("Number of apples in the array:", appleCount);
+
+// Part 4: Hands-On Practice
+
+
+let cart = [];
+
+cart.push("milk");
+cart.push("bread");
+cart.push("eggs");
+
+
+console.log("Cart inners:", cart); 
+
+
+let removedItem = cart.pop();
+
+
+console.log("Updated cart:", cart); 
+console.log("Removed item:", removedItem); 
+console.log("Cart length:", cart.length); 
+
+
+
+
+let numbers = [1, 2, 3, 4, 5];
+let reversedNumbers = [];
+
+    for (let i = numbers.length - 1; i >= 0; i--) {
+        reversedNumbers.push(numbers[i]);
+}
+console.log("Reversed numbers array:", reversedNumbers); 
