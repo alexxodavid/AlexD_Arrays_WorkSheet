@@ -92,3 +92,14 @@ let array2 = ["red", "green", "blue"];
             console.log("Both arrays have the same length.");
                  }
 
+
+
+ // Part 6: Print Even Indexed Elements
+
+const array = [10, 20, 30, 40, 50, 60];
+
+for (let i = 0; i < array.length; i++) {
+     if (i % 2 === 0) {
+        console.log(array[i]);
+      }
+}
