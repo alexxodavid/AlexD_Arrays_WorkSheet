@@ -103,3 +103,21 @@ for (let i = 0; i < array.length; i++) {
         console.log(array[i]);
       }
 }
+
+
+// Part 7: Push Challenge: Nested Loops
+
+
+let students = ["Alice", "Bob", "Charlie"];
+let subjects = ["Math", "Science"];
+
+
+    for (let i = 0; i < students.length; i++) {
+        for (let j = 0; j < subjects.length; j++) {
+            console.log(students[i] + " - " + subjects[j]);
+        }
+    }
+
+// The outer loop goes through each student one by one. For each student, the inner loop runs and pairs each student with that respective subject. 
+// Firstly, Alice pairs with MATH and then SCIENCE. Then, Bob pairs with MATH and then SCIENCE. Lastly, Charlie pairs with MATH and then SCIENCE.
+
